@@ -40,6 +40,10 @@ build/
 *.log
 .err
 
+# ── 本机辅助脚本（仅用于本机环境修复，不随仓库分发）──
+/fix-hosts-github.cmd
+hosts.bak.*
+
 # ── 垃圾文件 ──
 Thumbs.db
 desktop.ini
