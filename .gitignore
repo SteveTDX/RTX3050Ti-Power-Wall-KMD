@@ -1,0 +1,47 @@
+# ── WorkBuddy 运行时与工作区数据（含 1 GB 构建缓存、驱动 .sys 副本、dump）──
+.workbuddy/
+
+# ── 第三方二进制 / 安装包：体积大且含第三方版权，不入库 ──
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.dll
+*.sys
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.tlog
+*.exp
+*.map
+*.bin
+
+# ── 第三方参考项目（原始压缩包解包内容，非本项目产物）──
+nv30-50/
+
+# ── 根目录原始 PDF（已归档至 docs/，避免重复入库）──
+/*.pdf
+
+# ── 敏感凭据：API Key / 授权码，严禁入库 ──
+/script_for_RTX3050Ti_Mobile_8Gb/qwen_api.txt
+/script_for_RTX3050Ti_Mobile_8Gb/readme.txt
+.env
+*.key
+*.pem
+*.pfx
+*.cer
+
+# ── 构建输出与日志 ──
+out/
+dist/
+build/
+*.log
+.err
+
+# ── 垃圾文件 ──
+Thumbs.db
+desktop.ini
+.DS_Store
+/script_for_RTX3050Ti_Mobile_8Gb/70)
